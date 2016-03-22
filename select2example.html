@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Select2 example</title>
+	
+	<link rel="stylesheet" href="select2example.css">
+	
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+	
+	<!-- select2 -->
+	<link href="select2.css" rel="stylesheet" />
+	<link href="select2-bootstrap.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="container">
+	
+		<div class="row">
+			<div class="col-xs-2">
+				<select id="select2-dropdown" class="select2 select2-hidden-accessible" aria-hidden="true">
+					<option selected disabled hidden value=""></option>
+					<option value="yellow">yellow</option>
+					<option value="orange">oranje</option>
+					<option value="red">red</option>
+					<option value="blue">blue</option>
+					<option value="green">green</option>
+				</select>
+			</div>
+		</div>
+				
+		<div class="row m-t-m">
+			<button id="update-colors" class="btn btn-primary">update colors</button>
+		</div>
+		
+	</div>
+
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="select2.full.js"></script>
+	<script src="select2example.js"></script>
+</body>
+</html>

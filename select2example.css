@@ -1,0 +1,19 @@
+.container {
+	margin: 50px 100px;
+	left: 100px;
+}
+
+.m-t-m {
+	margin-top: 20px;
+}
+
+.col-xs-2 {
+	margin-left: -15px;
+}
+
+/*.select2-selection__placeholder {
+	color: gray;
+    margin-left: 10px;
+    margin-top: -25px;
+    position: absolute;
+}*/
